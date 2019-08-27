@@ -1,5 +1,5 @@
 {
-    "name": "freshman/flarum-ext-bbcode-textalign",
+    "name": "mitismirza/text-align",
     "description": "Text-Align BBCode for Flarum",
     "type": "flarum-extension",
     "keywords": ["bbcode"],
