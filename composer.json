@@ -1,0 +1,31 @@
+{
+    "name": "freshman/flarum-ext-bbcode-textalign",
+    "description": "Text-Align BBCode for Flarum",
+    "type": "flarum-extension",
+    "keywords": ["bbcode"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amir Irani",
+            "email": "freshmanlimited@gmail.com"
+        }
+    ],
+    "require": {
+        "flarum/core": "^0.1.0-beta.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Freshman\\BBcodeAlign\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "BBCode Align",
+            "icon": {
+                "name": "align-center",
+                "backgroundColor": "#f05049",
+                "color": "#fff"
+            }
+        }
+    }
+}
